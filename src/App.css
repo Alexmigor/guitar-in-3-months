@@ -1,0 +1,89 @@
+.App { 
+
+}
+
+
+ul {
+  text-align: center;
+}
+input {
+  margin: 5px;
+  padding-left: 10px;
+}
+
+.App-sun {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.App-guitar {
+  height: 15vmin;
+
+  /* pointer-events: none; */
+}
+
+.App-girl {
+  /* height: 40vmin; */
+  background-color: rgb(105, 170, 211);
+  padding: 1rem;
+  border-radius: 20px;
+  /* opacity: 0.5; */
+
+  /* pointer-events: none; */
+}
+
+/* .App-main-program {
+
+} */
+@media (prefers-reduced-motion: no-preference) {
+  .App-sun {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0592ca;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  background-image: linear-gradient(#0592CA 95%, gold);
+}
+
+
+
+.App-section-gradient {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  min-height: 100vh;
+  background-image: linear-gradient(gold, #0592CA 5%);
+  /* font-size: calc(10px + 2vmin); */
+  color: white
+}
+
+.separator {
+  position: relative;
+}
+
+h2 {
+  color: gold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
