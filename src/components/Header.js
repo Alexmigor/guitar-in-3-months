@@ -8,7 +8,7 @@ export default function Header() {
     <header className="App-header min-h-dvh ">
         <img src={sun} className="App-sun mb-20 sm:m-5" alt="Sun" />
         <img src={guitar_h} className="App-guitar" alt="Guitar" />
-        <h1 className='text-4xl text-yellow-300 m-10'>Гітара за літо</h1>
+        <h1 className='text-4xl text-yellow-300 m-10'>Гітара за 3 місяці</h1>
         <div className='App-paragraf w-3/5 xl:w-5/6 sm:w-4/5 flex sm:flex-col'>
           {/* <img src={guitar} className="App-logo1" alt="logo" /> */}
           <img src={girl} className="App-girl h-60 sm:h-40 sm:w-32 sm:mb-5 self-center" alt="Girl" />
